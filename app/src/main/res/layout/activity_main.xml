@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="@+id/activity_main"
         app:layout_constraintRight_toRightOf="@+id/activity_main"
         app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
         android:textSize="@dimen/tvEnter"
         app:layout_constraintVertical_bias="0.25" />
 
@@ -32,6 +32,8 @@
         app:layout_constraintTop_toBottomOf="@+id/tvWelcome"
         android:layout_marginTop="24dp"
         app:layout_constraintRight_toRightOf="@+id/activity_main"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         android:text="@string/btnEnter"/>
 
 </android.support.constraint.ConstraintLayout>
