@@ -13,7 +13,6 @@
     tools:context="io.pollinion.android.miprimerproyectoandroid.MainActivity">
 
 
-
     <TextView
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
@@ -21,8 +20,8 @@
         android:text="@string/tvWelcome"
         android:textColor="@color/icons"
         android:textSize="@dimen/tvEnter"
-        android:layout_marginTop="100dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/btnEnter"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -33,7 +32,9 @@
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/colorAccent"
         android:enabled="true"
+        android:focusable="true"
         android:text="@string/btnEnter"
+        android:textSize="@dimen/textBtnEnter"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
